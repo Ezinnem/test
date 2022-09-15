@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Create a student",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tgenerateRegNumber: () => {\n\t\t//write code here\n   let year = new Date().getFullYear();\n\t\tlet personalNumber = Math.random().toString().substr(2, 6);\n\t\tlet registeration_number = `${year}${personalNumber}`;\n\t\treturn registeration_number;\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Create a student_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6320f0a5dd8e905a035bde57_6320f4b0f51aa4275afd344c"
+}
